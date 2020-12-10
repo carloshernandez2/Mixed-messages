@@ -1,6 +1,6 @@
-const verbos = ["adar","dormir","luchar","andar","enfermar","mentir","anidar","entrar","pasear","apestar","estornudar","regresar","bailar","faltar","bromear","fracasar","subir","caminar","gritar","suspirar","cantar","inmigrar","trabajar","confiar","llegar","viajar","desafinar","llorar","votar"]
+const verbos = ["adar","dormir","luchar","andar","enfermar","mentir","anidar","entrar","pasear","apestar","estornudar","bailar","faltar","bromear","fracasar","subir","caminar","gritar","suspirar","cantar","inmigrar","trabajar","confiar","llegar","viajar","desafinar","llorar","votar"]
 const lugares = ["aeropuerto","edificio","pasillo","alcoba","escuela","perrera","apartamento","esquina","planeta","azotea","estación","playa","baño","estacionamiento","plaza","biblioteca","farmacia","preparatoria","cafetería","galaxia","pueblo","callejón","gasolinera","restaurante","capilla","gimnasio","salón","cine","hospital","sótano","club","iglesia","supermercado"]
-const adjetivos = ["simpático","lento","rígidos","simnple","tenebroso","hábil","limpio","fuerte","especial","impulsivo","intrépido","amable","ansioso","moderno","ruidoso","irresponsable","grande","maduro","enfermo","curioso","nuevo","cordial","sutil","monótonos","modesto"]
+const adjetivos = ["simpático","rígidos","simnple","tenebroso","hábil","limpio","fuerte","especial","impulsivo","intrépido","amable","ansioso","moderno","ruidoso","irresponsable","grande","maduro","enfermo","curioso","nuevo","cordial","sutil","monótonos","modesto"]
 
 const random = (listaVerbos,listaLugares,ListaAdjetivos) =>{
     let randStr1 =listaVerbos[Math.floor(listaVerbos.length*Math.random())];
